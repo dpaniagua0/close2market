@@ -1,0 +1,12 @@
+/* Empty. Add your own CSS if you like */
+.login-background {
+    background-image: url("../img/loginbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-login {
+  background: none;
+}
+.form-login > .list-inset {
+  background: none;
+}

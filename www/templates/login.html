@@ -1,0 +1,23 @@
+<ion-view name="login-view">
+  <ion-content class="login-background">
+    <form ng-submit="doLogin()" class="form-login">
+
+      <div class="list list-inset">
+  <label class="item item-input">
+    <input type="text" placeholder="First Name" ng-mode="loginData.username">
+  </label>
+  <label class="item item-input">
+    <input type="text" placeholder="Last Name" ng-model="loginData.password">
+  </label>
+
+    <button class="button button-block" name="button" type="submit">Log in</button>
+
+</div>
+    <!--  <div class="list">
+        <input type="text" ng-model="loginData.username" placeholder="Username">
+        <input type="password" ng-model="loginData.password" placeholder="password">
+        <button class="button button-block button-positive" type="submit">Log in</button>
+      </div>-->
+    </form>
+  </ion-content>
+</ion-view>
